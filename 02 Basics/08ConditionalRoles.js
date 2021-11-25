@@ -20,4 +20,5 @@ switch (user) {
         break;
 
     default: console.log("Trial user");
+        break;
 }
