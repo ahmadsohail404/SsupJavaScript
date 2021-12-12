@@ -16,7 +16,9 @@ var isEven = (element) => {       // --> arrow function.
 // var result = [2, 3, 6, 8].every((e) => {
 //     return e % 2 === 0;
 // })
-var result = [2, 3, 6, 8].every((e) => e % 2 === 0) // remove {} when not using return.
+var result = [2, 3, 6, 8].every((e) => e % 2 === 0);
+//      OR
+var result = [2, 3, 6, 8].every((e) => (e % 2 === 0)); // remove {} when not using return.
 // it became one line of code.
 console.log(result);
 
