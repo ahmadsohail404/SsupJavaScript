@@ -1,7 +1,7 @@
 function sayHello(name) {
     console.log(`Hello ${name} how are you?`);
 }
-// sayHello()
+sayHello()
 // sayHello("Rabby")
 
 function sayHi() {

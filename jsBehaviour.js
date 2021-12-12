@@ -3,7 +3,7 @@ const student = {
     name: {
         firstName: "Sohail",
         lastName: "Ahmad",
-    },
+    }
 };
 
 console.log(student);

@@ -36,5 +36,6 @@ console.log(user.indexOf("newyy")); // newyy is not in the array so it'll give -
 // useful for if else.
 
 
-console.log(Array.from("sohail")); // puts the string or other element into an array.
+console.log(Array.from("sohail")); // [ 's', 'o', 'h', 'a', 'i', 'l' ]
+                                   // puts the string or other element into an array.
 
