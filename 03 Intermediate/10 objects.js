@@ -15,7 +15,6 @@ console.log(user.loginCount);
 console.table(user)  // wow 😃
 
 
-
 var phone = {
     name: "Redmi Note 7 Pro",
     yearReleased: 2019,
