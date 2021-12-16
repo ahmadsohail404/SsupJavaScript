@@ -8,8 +8,8 @@ setInterval(() => {
         count++;
         counter.innerHTML = count;
     }
-}, 1)
+}, 10)
 
 setTimeout(() => {
-    followers.innerHTML = "Followers on Instagram!"
-}, 4300)
+    followers.innerHTML = "1000 followers on Instagram!";
+}, 4500)
