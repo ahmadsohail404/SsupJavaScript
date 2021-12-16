@@ -11,4 +11,8 @@ const center = document.querySelector(".center");
 const getBGColor = (selectedColor) => {
     return (window.getComputedStyle(selectedColor).backgroundColor);
 }
-console.log(getBGColor(orange));
+var orangeElementColor = getBGColor(orange);
+
+orange.addEventListener('mouseenter', () => {
+    center.style.background = orangeElementColor;
+})
