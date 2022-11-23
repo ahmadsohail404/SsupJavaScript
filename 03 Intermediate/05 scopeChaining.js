@@ -4,7 +4,7 @@ console.log(`Line number 3 -> ${myName}`);
 
 function sayName() {
     var myName = "Rabby";
-    console.log(`Line number 6 -> ${myName}`);
+    console.log(`Line number 7 -> ${myName}`);
 
     sayNameTwo();
     function sayNameTwo() {
